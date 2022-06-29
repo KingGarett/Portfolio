@@ -34,21 +34,16 @@
     background-color: white;
     justify-content: flex-end;
     align-items: center;
-    height: 25vh;
-}
-
-.disminuir{
-    display: flex;
-    flex-shrink: 0;
+    padding: 2.5rem 0;
 }
 
 .card__icono{
     width: 4rem;
 }
 
-.habilidades_card__nombre{
+.card__nombre{
     text-align: center;
-    padding: 1rem 0;
+    padding-top: 1rem;
 }
 
 .hobbies{
@@ -69,7 +64,7 @@
     display: flex;
     flex-direction: column;
     grid-column: auto;
-    height: 22vh;
+    padding: 2.5rem 0;
     background-color: white;
     justify-content: flex-end;
     align-items: center;
