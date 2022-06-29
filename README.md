@@ -1,6 +1,6 @@
 # 
 <h1 align="center">
-   Portfolio - Alura - Challenge 👨‍💻
+   Portfolio
  </h1> 
 <hr> 
 
