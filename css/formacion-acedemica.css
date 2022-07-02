@@ -41,7 +41,7 @@
 
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 430px){
     .formacion_cursos{
         display: flex;
         flex-flow: column nowrap;

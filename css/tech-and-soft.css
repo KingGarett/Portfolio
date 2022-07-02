@@ -8,6 +8,7 @@
     grid-template-columns: auto;
     grid-template-rows:auto  ;
     padding-bottom: 7rem;
+    justify-items: center;
     
 }
 
@@ -18,6 +19,7 @@
     gap: 1rem;
     width: 90%;
     align-items: center;
+    justify-content: center;
 }
 
 .habilidades_titulo{
@@ -40,6 +42,13 @@
 .card__icono{
     width: 4rem;
 }
+.card__icono__html{
+    width: 3.6rem;
+}
+
+.card__icono__css{
+    width: 4.4rem;
+}
 
 .card__nombre{
     text-align: center;
@@ -53,6 +62,8 @@
     grid-template-rows: repeat(3, fr);
     gap: 1rem;
     width: 90%;
+    align-items: center;
+    justify-content: center;
 }
 
 .hobbies_titulo{
@@ -80,7 +91,7 @@
     }
 }
 
-@media screen and (max-width:360px){
+@media screen and (max-width:430px){
     .habilidades{
         grid-template-columns: repeat(2,49%);
     }

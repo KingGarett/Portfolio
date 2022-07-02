@@ -45,6 +45,12 @@
 .sobre-mi__parrafo{
     font-size: calc(.8em + 1vw);
 }
+
+.sobre-mi__firma{
+
+    width: 25vw;
+}
+
 @media screen and (max-width:768px){
     .presentacion_texto{
         width: 70%;
@@ -58,9 +64,14 @@
         font-size: 90%;
         font-weight: 500;
     }
+
+    .sobre-mi__firma{
+
+        width: 30vw;
+    }
 }
 
-@media screen and (max-width:360px){
+@media screen and (max-width:430px){
 
     .presentacion{
         flex-direction: column-reverse;
@@ -79,5 +90,10 @@
     .presentacion_links__item{
         font-size: 80%;
         font-weight: 600;
+    }
+
+    .sobre-mi__firma{
+
+        width: 40vw;
     }
 }
