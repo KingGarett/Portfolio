@@ -31,10 +31,16 @@
 
 .presentacion_links__item{
     text-decoration: none;
-    margin-right: 2rem;
+
     color: inherit;
     font-size: 100%;
     font-weight: 500;
+}
+
+.presentacion_links__item+img{
+    margin-right: 2rem;
+    margin-left: .4rem;
+    width: 10px;
 }
 
 .sobre-mi__titulo{
