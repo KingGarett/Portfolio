@@ -19,7 +19,7 @@
     margin-left: 4em;
 }
 
-.experiencia_proyecto:nth-child(3)>img{
+.experiencia_proyecto>img{
     border: 10px solid #6b6b6b;
     box-sizing:border-box;
 }

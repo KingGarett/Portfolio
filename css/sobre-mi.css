@@ -27,6 +27,8 @@
 .presentacion_links{
     display: flex;
     list-style: none;
+    padding: 0;
+   
 }
 
 .presentacion_links__item{
